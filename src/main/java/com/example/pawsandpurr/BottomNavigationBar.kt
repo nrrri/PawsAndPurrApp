@@ -3,6 +3,7 @@ package com.example.pawsandpurr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Add
 import androidx.compose.material.icons.rounded.Chat
 import androidx.compose.material.icons.rounded.Favorite
 import androidx.compose.material.icons.rounded.Home
@@ -26,11 +27,16 @@ val items = listOf(
         icon = Icons.Rounded.Favorite
     ),
     BottomNavigation(
+        title = "Add",
+        icon = Icons.Rounded.Add
+    ),
+    BottomNavigation(
         title = "Chat",
         icon = Icons.Rounded.Chat
     ),
+
     BottomNavigation(
-        title = "Info",
+        title = "Personal",
         icon = Icons.Rounded.Person
     ),
 
